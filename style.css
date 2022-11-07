@@ -1,16 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
-background-color: #f0ece3;
-margin: 0;
+    background-color: #e3dbc3;
 }
 
 .title {
-color: #0d3b66;
+color: #73925f;
 font-family: 'Coiny', cursive;
 }
 
@@ -19,8 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
-    background-color: #f2e8cf;
+    padding: 30px;
+    background-color: #b5ca8d;
 
 }
 
@@ -33,10 +31,10 @@ header {
 .list-nav a{
     text-decoration: none;
     font-size: 20px;
-    color: #ee964b;
-    margin: 15px;
-    padding: 15px;
-    border-radius: 10px;ç
+   font-weight: bolder;
+    color: #9a5fbe;
+    margin: 30px;
+    padding: 20px;
 }
 
 
@@ -47,6 +45,8 @@ header {
 
 .logo img {
     height: 100px;
-    margin-right: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 10px;
 }
 
