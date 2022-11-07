@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #b5ca8d;
 
 }
@@ -35,13 +35,16 @@ header {
 
 .list-nav a{
     text-decoration: none;
-    font-size: 20px;
-   font-weight: bolder;
-    color: #9a5fbe;
+    font-size: 18px;
+   font-weight: 800;
+    color: #73925f;
     margin: 30px;
     padding: 20px;
 }
 
+nav a:hover{
+    color: #ffffff;
+}
 
 .logo{
     display: flex;
