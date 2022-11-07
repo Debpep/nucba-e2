@@ -5,5 +5,45 @@
 }
 
 body {
-background-color: #fefae0;
+background-color: #f0ece3;
+margin: 0;
 }
+
+.title {
+color:#bc4749 ;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.list-nav {
+    list-style: none;
+    display: flex;
+}
+
+.list-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #606c38;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
