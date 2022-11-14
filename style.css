@@ -57,3 +57,110 @@ nav a:hover{
     margin-bottom: 10px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero {
+margin: 150px;
+padding: 20px;
+max-width: 1300px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+}
+
+.hero-info{
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info h1 {
+    color: #73925f;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+}
+
+.hero-info p {
+    color: #73925f;
+    gap: 30px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+    font-family: 'Baloo 2', cursive;
+} 
+
+.hero-info a {
+    color: rgb(235, 245, 180);
+    background-color: #2f4703;
+    width: 200px;
+    height: 28px;
+    padding: 15px 0px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+}
+
+.hero-info a:hover{
+    color: #ffffff;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 60px 0 30px;
+    gap: 50%;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 200px;
+}
+
+.photo img {
+    border-radius: 500px;
+}
+
+
+#title {
+    margin: 90px;
+    margin-left: 400px;
+    padding: 20px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.title2 h2 {
+    text-align: center;
+    color: #73925f;
+    font-size: 45px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.title2 p {
+    text-align: justify;
+    color: #73925f;
+    gap: 5px;
+    font-size: 25px;
+    padding: 10px;
+    line-height: 38px;
+    font-family: 'Baloo 2', cursive;
+}
