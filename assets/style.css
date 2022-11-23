@@ -198,13 +198,13 @@ gap: 100px;
     padding: 50px 0px;
     margin-top: 120px;
     gap: 70px;
-    width: 100%
+    width: 100%;
 }
 
 .caja-container {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .caja {
@@ -263,6 +263,7 @@ font-family: 'Baloo 2', cursive;
     gap: 80px;
     line-height: 50px;
     margin-left: 500px;
+
 }
 
 .info-contacto h3 {
@@ -292,18 +293,18 @@ font-family: 'Baloo 2', cursive;
     color: #ffffff;
 }
 
-
-.panda-computer img {
-    border-radius: 500px;
-}
-
 .panda-computer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: -450px;
+    vertical-align: bottom ;
 }
+
+.panda-computer img {
+    border-radius: 500px;
+}
+
 
 footer {
     display: flex;
@@ -314,20 +315,13 @@ footer {
     margin: 100px;
     line-height: 40px;
     font-family: 'Baloo 2', cursive;
-    position: relative;
-    bottom: -400px;
 }
 
 
 footer h3 {
     font-size: 20px;
-    position:relative;
-    bottom: 20px;
 }
 
 footer p {
     font-size: 18px;
-    position: relative;
-    bottom: 20px;
 }
-
