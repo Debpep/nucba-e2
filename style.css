@@ -139,13 +139,15 @@ gap: 100px;
 
 #title {
     margin: 60px;
-    margin-left: 360px;
-    padding: 20px 0;
+    margin-left: 295px;
+    padding: 30px 50px;
     max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: #ccd49b;
+    border-radius: 70px;
 }
 
 .title2 h2 {
@@ -203,29 +205,29 @@ gap: 100px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 .caja {
     display: flex;
     flex-direction: center;
     align-items: center;
+    padding: 20px;
+    gap: 30px;
     justify-content: center;
     text-align: center;
-    width: 500px;
-    height: 400px;
-    border-radius: 100px;
     background-color: #2f4703;
-    margin: 0px 60px;
+    margin: 0px 15px;
+    border-radius: 100px;
 }
 
 .caja-info {
     display: flex;
+    width: 500px;
+    height: 400px;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 90px;
     align-items: center;
-    padding: 0px 5px;
+    padding: 20px 10px;
     gap: 30px;
     text-align: center;
     color: #ebf5b4;
@@ -247,7 +249,12 @@ font-family: 'Baloo 2', cursive;
 }
 
 .contact {
-    margin-top: 100px;
+    margin-top: 180px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.contact li {
+    list-style: none;
 }
 
 .info-contacto {
@@ -261,8 +268,8 @@ font-family: 'Baloo 2', cursive;
 .info-contacto h3 {
     text-align: left;
     color: #73925f;
-    font-size: 40px;
-    font-weight: 20px;
+    font-size: 45px;
+    font-weight: 40px;
 }
 
 .info-contacto ul p {
@@ -281,6 +288,10 @@ font-family: 'Baloo 2', cursive;
     letter-spacing: 1px;
 }
 
+.info-contacto ul a:hover {
+    color: #ffffff;
+}
+
 .panda-computer {
     display: flex;
     flex-direction: column;
@@ -289,18 +300,18 @@ font-family: 'Baloo 2', cursive;
 }
 
 .panda-computer img {
-    border-radius: 5px;
+    border-radius: 500px;
 }
 
 footer {
-    background-color: #b5ca8d;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #2f4703;
+    color: #73925f;
     margin: 100px;
     line-height: 40px;
+    font-family: 'Baloo 2', cursive;
 }
 
 
